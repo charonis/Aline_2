@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.wrapper{
+    height: 100vh;
+    background: linear-gradient(108.82deg, #014872 0%, #A0EACF 100%);
+    display: flex;
+    justify-content: center;
+}
+.container_one{
+    height: 100vh;
+    width:1098px ;
+    margin: 0 auto;
+}
+.while_bloc{
+    background-color:white;
+    width: 364px;
+    height: 340px;
+
+}
+.part_one{
+    border-radius: 20px 0  0 20px;
+    
+}
+.part_two{
+    border-radius:0 20px 20px 0;
+    
+    /* margin-left: 10px; */
+}
+.off_2{
+    animation: off_2 1.0s ease-in 1 ;
+}
+@keyframes off_2 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: 40px;
+    }
+    
+}
+.left{
+    margin-left: 40px;
+}
+.box_part{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content:center;
+    margin-top:300px;
+    animation: aii 10s ease;
+}
+
+@keyframes aii {
+   0%{
+    transform: translateX(-10000px);
+   }
+   25%{
+    transform: translateX(1600px);
+   }
+   50%{
+    transform:translateX(1300px) ;
+   }
+   100%{
+    transform: translateX(0);
+   }
+
+}
+
+
+.box_line_1{
+    margin-left: 5px;
+    margin-top: 6px;
+}
+
+.box_img_CARD{
+    
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.box_line_2{
+    margin-left: 1px;
+    margin-top: 7px;
+}
+.box_img_rouse{
+
+    margin-left: 213px;
+    margin-top: 15px;
+}
+.serdse{
+    position: absolute;
+    top: 124px;
+    
+}
+.an{
+    animation: off 1.5s ease-in 1 ;
+}
+
+@keyframes off {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+
+.box_two_startList{
+    width:661px ;
+    height: 240px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box_two{
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.fld{
+    animation: noned 1s ease;
+}
+
+@keyframes noned {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.love_two_s{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.box_free{
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    /* align-items: center; */
+}
+.box_two_endList{
+    width: 1098px;
+    height: 639px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.faa{
+    animation:  ddd 1s ease;
+}
+
+@keyframes ddd {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}
+.box_text_love{
+    margin: 15px 33px 0 33px;
+}
+.text_love{
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.cotia{
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.rose_left_k{
+    margin-left: 33px;
+    margin-right: 22px;
+}
+.rose_left{
+    margin-right: 22px;
+}
+.rose_left_u{
+    margin-right: 55px;
+}
+.lovess{
+    width:50px ;
+    height:50px ;
+}
+.ff{
+    margin-right: 22px;
+}
+
+.box_text_love{
+    margin-bottom: 115px;
+}
+.ostalinoe{
+    display: flex;
+    justify-content: space-around;
+}
+.round{
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text_round{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.text_acriviti{
+    font-size: 30px;
+}
+
+.round_container{
+    display: flex;
+    justify-content: center;
+}
+.box_line_up{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box_text_acriviti{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.box_right{
+    position: relative;
+    bottom: 100px;
+   
+}
+
+.box_text_one{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.text_one{
+    font-size: 100px;
+    font-family: 'Pangolin', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
